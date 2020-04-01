@@ -1,5 +1,11 @@
 <template>
 	<div class="container">
+    
+    <div class="jumbotron bg-info">
+      <h1 class="display-4">All Posts</h1>
+    </div>
+
+
 		<div class="jumbotron" v-for="post in posts">
 		  <h2>{{post.title}}</h2>
 		  <p>{{post.description}}</p>

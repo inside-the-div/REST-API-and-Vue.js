@@ -1,5 +1,11 @@
 <template>
 	<div class="container">
+    
+    <div class="jumbotron bg-info">
+      <h1 class="display-4">All categories</h1>
+    </div>
+
+
 		<div class="jumbotron" v-for="category in categories">
 		  <h2>{{category.name}}</h2>
 		  <p>{{category.description}}</p>
